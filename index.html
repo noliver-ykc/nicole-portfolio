@@ -6,81 +6,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nicole Oliver</title>
   <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/css-reset.css">
   <script src="https://kit.fontawesome.com/789041a997.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <!-- container for whole app -->
+  <div class="container">
   <!-- top navbar -->
-  <nav class="top-nav">
-    <ul>
-      <li><a class="#work" href="#work">Work</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#resume">Resume</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+    <nav id="top-nav">
+      <ul class="nav">
+        <li><a class="#work" href="#work">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-  <!-- side navbar -->
-  <div class="sidebar">
-    <a class="#work" href="#work">Work</a>
-    <a href="#skills">Skills</a>
-    <a href="#resume">Resume</a>
-    <a href="#contact">Contact</a>
-  </div>
-
-  <!-- main body -->
-  <!-- landing area -->
-  <div class="landing-screen">
-    <div class="landing-text">
-      <h1 class="main-title">Hi I'm Nicole</h1>
-      <p class="intro-blurb">a <span class="bold-underline">billingual front end developer</span> based in <span class="bold-underline"></span>Tokyo, Japan</span></p>
+    <!-- side navbar -->
+    <div id="sidebar">
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
     </div>
-    <img src="" alt="" class="main-avatar">
-  </div>
 
-  <!-- my work -->
-  <div id="work">
-    <div class="project-card">
-      <h1 class="project-card-title">Pluto</h1>
-      <div class="project-card-tech">
-        <p>Ruby on Rails, Javascript, MySQL</p>
+    <!-- main body -->
+    <!-- landing area -->
+    <div id="landing-screen">
+      <div class="landing-text">
+        <h1 class="main-title">Hi I'm Nicole</h1>
+        <p class="intro-blurb">a <span class="bold-underline">billingual front end developer</span> based in <span class="bold-underline"></span>Tokyo, Japan</span></p>
       </div>
-      <div class="project-card-view">
-        <p><a href="">live</a> | <a href="">code</a></p>
+      <img src="" alt="" class="main-avatar">
+    </div>
+
+    <!-- my work -->
+    <div id="work">
+      <div class="project-card">
+        <h1 class="project-card-title">Pluto</h1>
+        <div class="project-card-tech">
+          <p>Ruby on Rails, Javascript, MySQL</p>
+        </div>
+        <div class="project-card-view">
+          <p><a href="">live</a> | <a href="">code</a></p>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- my Skills -->
-  <div id="skills">
-    <div class="development">
-      <p>tech</p>
-      <p>tech</p>
-      <p>tech</p>
-      <p>tech</p>
+    <!-- my Skills -->
+    <div id="skills">
+      <div class="development">
+        <p>tech</p>
+        <p>tech</p>
+        <p>tech</p>
+        <p>tech</p>
+      </div>
+      <div class="design">
+        <p>tool</p>
+        <p>tool</p>
+        <p>tool</p>
+        <p>tool</p>
+      </div>
     </div>
-    <div class="design">
-      <p>tool</p>
-      <p>tool</p>
-      <p>tool</p>
-      <p>tool</p>
-    </div>
-  </div>
 
-  <!-- contact me -->
-  <div id="contact">
-    <div class="socials">
-      <img class="linkedin" src="" alt="">
-      <img class="github" src="" alt="">
-      <img class="instagram" src="" alt="">
+    <!-- contact me -->
+    <div id="contact">
+      <div class="socials">
+        <img class="linkedin" src="" alt="">
+        <img class="github" src="" alt="">
+        <img class="instagram" src="" alt="">
+      </div>
+      <img src="" alt="" class="nicole-comp">
+      <form class="contact" action=""></form>
     </div>
-    <img src="" alt="" class="nicole-comp">
-    <form class="contact" action=""></form>
-  </div>
 
-  <!-- footer -->
-  <footer>
-    <p>Made in Tokyo with <i class="fa-solid fa-heart blue-heart"></i> by Nicole</p>
-  </footer>
+    <!-- footer -->
+    <footer>
+      <p>Made in Tokyo with <i class="fa-solid fa-heart blue-heart"></i> by Nicole</p>
+    </footer>
+  </div>
+  
 
 </body>
 </html>
