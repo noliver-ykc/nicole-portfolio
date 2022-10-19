@@ -1,3 +1,29 @@
+/* general styles */
+.container {
+    background-color:rebeccapurple;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+/* topNav */
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  display: inline-block;
+    
+}
+
+/* footer */
 .blue-heart {
     color: blue;
 }
