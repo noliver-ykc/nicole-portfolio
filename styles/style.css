@@ -1,16 +1,16 @@
 /* general styles */
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;400&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Literata:opsz@7..72&family=Lobster&display=swap');
 
 h1, h2 {
   font-family: 'Lobster', cursive;
 }
 
-p, li {
-  font-family: 'Bitter', serif;
+p, a {
+  font-family: 'Literata', serif;
+  font-size: 1.2em;
 }
 
 .container {
-  background-color:rebeccapurple;
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -20,30 +20,28 @@ p, li {
   writing-mode: vertical-lr;
   position: absolute;
   padding: 25px;
-  transform: rotate(180deg)
+  transform: rotate(180deg);
 }
 
 .vert {
-  padding-bottom: 7em;
-}
-
-.vet:hover {
-  
+  padding-bottom: 6em;
 }
 
 /* topNav */
+nav {
+  position: relative;
+}
 .nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  padding-right: 1em;
   float: right;
   
 }
 
 a:link {
-  text-decoration: none;
   color: black;
+  text-decoration: none;
 }
 
 li {
@@ -53,14 +51,33 @@ li {
 
 
 
-
-
-
 /* landing */
+#landing-screen {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 20%;
+}
 
+.landing-text {
+  margin: auto 0;
+  background-color: aliceblue;
+}
 
+.main-title {
+  font-size: 5em;
+  font-weight: 400;
+}
+
+.main-avatar {
+  height: 272px;
+  width: 272px;
+}
+
+.bold-underline {
+  font-weight: bold;
+}
 
 /* footer */
 .blue-heart {
-    color: blue;
+  color: blue;
 }
