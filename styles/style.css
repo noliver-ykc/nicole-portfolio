@@ -18,7 +18,7 @@ p, a {
 /* sidenavbar  */
 #sidebar {
   writing-mode: vertical-lr;
-  position: absolute;
+  position: fixed;
   padding: 25px;
   transform: rotate(180deg);
 }
@@ -36,7 +36,7 @@ nav {
   margin: 0;
   padding: 0;
   float: right;
-  
+
 }
 
 a:link {
