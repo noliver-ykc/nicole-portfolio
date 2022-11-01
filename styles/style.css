@@ -10,6 +10,7 @@ p, a {
   font-size: 1.2em;
 }
 
+
 .container {
   margin-left: 15%;
   margin-right: 15%;
@@ -36,7 +37,6 @@ nav {
   margin: 0;
   padding: 0;
   float: right;
-
 }
 
 a:link {
@@ -48,7 +48,6 @@ li {
   display: inline-block;
   padding: 1em;
 }
-
 
 
 /* landing */
@@ -73,11 +72,19 @@ li {
   width: 272px;
 }
 
-.bold-underline {
-  font-weight: bold;
-}
-
 /* footer */
 .blue-heart {
   color: blue;
+}
+
+.underline-spacing {
+  position: absolute;
+}
+
+.fed {
+  margin-left: 6em;
+}
+
+.tokyo {
+  margin-left: 23em;
 }
