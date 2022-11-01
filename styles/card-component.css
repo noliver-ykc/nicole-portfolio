@@ -1,0 +1,36 @@
+/* project card component for works */
+.project-card {
+  width: 270px;
+  border: solid 3px black;
+  border-radius: 10px;
+  overflow: auto;
+  margin: 1em;
+}
+
+.project-card-info {
+  padding: .7em 1em;
+}
+
+.project-card-tech {
+  font-size: 12px;
+  width: 10em;
+  text-align: end;
+}
+.proj-card-title-tech {
+  display: flex;
+  justify-content: space-between;
+}
+.project-card-view {
+  text-align: center;
+}
+.project-img {
+  height: 270px;
+  width: 100%;
+  display: block;
+}
+
+/* specific cards */
+
+#pluto {
+  margin-top: 5em;
+}

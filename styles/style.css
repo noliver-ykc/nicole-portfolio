@@ -1,10 +1,23 @@
-/* general styles */
+/* imports */
 @import url('https://fonts.googleapis.com/css2?family=Literata:opsz@7..72&family=Lobster&display=swap');
+@import "css-reset.css";
+@import "card-component.css";
 
-h1, h2 {
+/* general styles */
+h1 {
   font-family: 'Lobster', cursive;
 }
 
+h2 {
+  font-family: 'Literata', serif;
+  font-size: 3em;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 300;
+}
 p, a {
   font-family: 'Literata', serif;
   font-size: 1.2em;
@@ -15,6 +28,12 @@ p, a {
   margin-left: 15%;
   margin-right: 15%;
 }
+
+
+.title-center {
+  text-align: center;
+}
+
 
 /* sidenavbar  */
 #sidebar {
@@ -54,7 +73,7 @@ li {
 #landing-screen {
   display: inline-flex;
   justify-content: space-between;
-  margin-top: 20%;
+  height: 90vh;
 }
 
 .landing-text {
@@ -70,11 +89,7 @@ li {
 .main-avatar {
   height: 272px;
   width: 272px;
-}
-
-/* footer */
-.blue-heart {
-  color: blue;
+  margin-top: 22%;
 }
 
 .underline-spacing {
@@ -87,4 +102,33 @@ li {
 
 .tokyo {
   margin-left: 23em;
+}
+
+/* my work */
+#work {
+  height: 100vh;
+}
+
+.title-underline-b {
+  padding: 30px 0 8px;
+  position: relative;
+}
+
+.title-underline-b::before {
+  content: "";
+  position: absolute;
+  left: 57%;
+  bottom: 16px;
+  width: 7em;
+  height: .4em;
+  transform: skew(-12deg) translateX(-50%);
+  background: #8CD5DF;
+  z-index: -1;
+}
+
+
+
+/* footer */
+.blue-heart {
+  color: blue;
 }
