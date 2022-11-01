@@ -1,22 +1,27 @@
 /* imports */
 @import url('https://fonts.googleapis.com/css2?family=Literata:opsz@7..72&family=Lobster&display=swap');
+@import url('http://fonts.cdnfonts.com/css/bogart');
 @import "css-reset.css";
 @import "card-component.css";
+@import "nav-titles.css";
 
 /* general styles */
 h1 {
-  font-family: 'Lobster', cursive;
+  font-family: 'Bogart', sans-serif;
 }
 
 h2 {
-  font-family: 'Literata', serif;
+  font-family: 'Bogart', sans-serif;
   font-size: 3em;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h3 {
   font-size: 2em;
   font-weight: 300;
+}
+h4 {
+  font-size: 1.3em;
 }
 p, a {
   font-family: 'Literata', serif;
@@ -63,7 +68,7 @@ a:link {
   text-decoration: none;
 }
 
-li {
+.nav > li {
   display: inline-block;
   padding: 1em;
 }
@@ -83,6 +88,7 @@ li {
 .main-title {
   font-size: 5em;
   font-weight: 400;
+  line-height: 1;
 }
 
 .main-avatar {
@@ -110,25 +116,31 @@ li {
   justify-content: space-around;
 }
 
-.title-underline-b {
-  padding: 30px 0 8px;
-  position: relative;
+
+/* my skills */
+#skills {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
 }
 
-.title-underline-b::before {
-  content: "";
-  position: absolute;
-  left: 57%;
-  bottom: 16px;
-  width: 7em;
-  height: .4em;
-  transform: skew(-12deg) translateX(-50%);
-  background: #8CD5DF;
-  z-index: -1;
+.skills-list {
+  margin-top: 10em;
 }
 
+.development {
+  padding-top: 10em;
+}
 
+.design {
+  padding-top: 15em;
+}
 
+.development > ul, .design > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 /* footer */
 .blue-heart {
   color: blue;
