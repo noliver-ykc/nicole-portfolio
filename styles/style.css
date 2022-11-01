@@ -78,7 +78,6 @@ li {
 
 .landing-text {
   margin: auto 0;
-  background-color: aliceblue;
 }
 
 .main-title {
@@ -107,6 +106,8 @@ li {
 /* my work */
 #work {
   height: 100vh;
+  display: flex;
+  justify-content: space-around;
 }
 
 .title-underline-b {
