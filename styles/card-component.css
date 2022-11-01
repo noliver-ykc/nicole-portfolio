@@ -1,6 +1,7 @@
 /* project card component for works */
 .project-card {
   width: 270px;
+  height: fit-content;
   border: solid 3px black;
   border-radius: 10px;
   overflow: auto;
@@ -33,4 +34,9 @@
 
 #pluto {
   margin-top: 5em;
+}
+
+#cookbook {
+  margin-top: 10em;
+
 }
