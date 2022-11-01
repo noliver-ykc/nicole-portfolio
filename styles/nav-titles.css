@@ -36,3 +36,20 @@
   background: #F8E47B;
   z-index: -1;
 }
+
+.title-underline-p {
+  padding: 30px 0 8px;
+  position: absolute;
+}
+
+.title-underline-p::before {
+  content: "";
+  position: absolute;
+  left: 57%;
+  bottom: 16px;
+  width: 7em;
+  height: .55em;
+  transform: skew(-12deg) translateX(-50%);
+  background: #EAB2EF;
+  z-index: -1;
+}
