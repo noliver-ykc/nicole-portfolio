@@ -85,6 +85,57 @@ a:link {
   padding: 1em;
 }
 
+.btn-box-work {
+  padding-top: 15em;
+}
+
+.btn-box-work:hover {
+  height: fit-content;
+  width: fit-content;
+  font-weight: bold;
+  padding-bottom: .3em;
+  border-bottom: 5px solid #8CD5DF;
+  transition: border-bottom .3s;
+}
+
+.btn-box-skills {
+  padding-top: 15em;
+}
+
+.btn-box-skills:hover {
+  height: fit-content;
+  width: fit-content;
+  font-weight: bold;
+  padding-bottom: .3em;
+  border-bottom: 5px solid #F8E47B;
+  transition: border-bottom .3s;
+}
+
+.btn-box-resume {
+  padding-top: 15em;
+}
+
+.btn-box-resume:hover {
+  height: fit-content;
+  width: fit-content;
+  font-weight: bold;
+  padding-bottom: .3em;
+  border-bottom: 5px solid #EAB2EF;
+  transition: border-bottom .3s;
+}
+
+.btn-box-contact {
+  padding-top: 15em;
+}
+
+.btn-box-contact:hover {
+  height: fit-content;
+  width: fit-content;
+  font-weight: bold;
+  padding-bottom: .3em;
+  border-bottom: 5px solid #EA666E;
+  transition: border-bottom .3s;
+}
 
 /* landing */
 #landing-screen {
