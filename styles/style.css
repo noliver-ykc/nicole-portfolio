@@ -28,6 +28,7 @@ h4 {
 p, a {
   font-family: 'Literata', serif;
   font-size: 1.2em;
+  color: black;
 }
 
 .jp {
@@ -45,7 +46,7 @@ p, a {
   text-align: center;
 }
 
-#work, #skills, #resume {
+#work, #skills, #resume, #contact {
   height: 100vh;
   display: flex;
   justify-content: space-around;
@@ -184,13 +185,6 @@ a:link {
   transform: scale(.96);
 }
 
-.resume-btn:disabled {
-  border-color: #DDDDDD;
-  color: #DDDDDD;
-  cursor: not-allowed;
-  opacity: 1;
-}
-
 .btn-box {
   padding-top: 15em;
 }
@@ -202,6 +196,20 @@ a:link {
   border-bottom: 5px solid #EAB2EF;
   transition: border-bottom .3s;
 }
+
+
+/* contact me  */
+.nicole-comp {
+  margin-top: 10em;
+  height: 375px;
+  width: 375px;
+}
+
+.socials {
+  padding-top: 10em;
+  font-size: 2em;
+}
+
 /* footer */
 .blue-heart {
   color: blue;
