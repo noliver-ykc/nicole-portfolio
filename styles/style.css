@@ -199,17 +199,58 @@ a:link {
 
 
 /* contact me  */
+
 .nicole-comp {
-  margin-top: 10em;
-  height: 375px;
-  width: 375px;
+  height: 250px;
+  width: 250px;
+  /* position: absolute; */
 }
 
 .socials {
-  padding-top: 10em;
+  padding-top: 7em;
   font-size: 2em;
+  text-align: center;
+}
+.social-link:hover {
+  transform: scale(1.2);
+  border-bottom: 5px solid #EA666E;
 }
 
+/* contact form styles */
+#contact-form {
+  padding-top: 10em;
+  width: fit-content;
+  font-family: 'Literata', serif;
+}
+
+input[type=text], input[type=email], select, textarea {
+  width: 20em;
+  padding: .5em;
+  border: 1px solid rgb(26, 25, 25);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: 1px solid #222222;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-box-submit:hover {
+  height: fit-content;
+  width: fit-content;
+  padding-bottom: .3em;
+  border-bottom: 5px solid #EA666E;
+  transition: border-bottom .3s;
+}
 /* footer */
 .blue-heart {
   color: blue;
