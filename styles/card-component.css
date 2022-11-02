@@ -28,18 +28,15 @@
   height: 270px;
   width: 100%;
   display: block;
+  object-fit: cover;
 }
 
 /* specific cards */
 
-#pluto {
+#pluto, #filmflix {
   margin-top: 10em;
 }
 
 #cookbook {
   margin-top: 15em;
-}
-
-#filmflix {
-  margin-top: 10em;
 }
