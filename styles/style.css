@@ -1,5 +1,5 @@
 /* imports */
-@import url('https://fonts.googleapis.com/css2?family=Literata:opsz@7..72&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Literata:opsz@7..72&family=Lobster&family=Zen+Maru+Gothic&display=swap');
 @import url('http://fonts.cdnfonts.com/css/bogart');
 @import "css-reset.css";
 @import "card-component.css";
@@ -7,11 +7,11 @@
 
 /* general styles */
 h1 {
-  font-family: 'Bogart', sans-serif;
+  font-family: 'Bogart', 'Lobster', sans-serif;
 }
 
 h2 {
-  font-family: 'Bogart', sans-serif;
+  font-family: 'Bogart', 'Lobster', sans-serif;
   font-size: 3em;
   font-weight: 400;
 }
@@ -20,12 +20,18 @@ h3 {
   font-size: 2em;
   font-weight: 300;
 }
+
 h4 {
   font-size: 1.3em;
 }
+
 p, a {
   font-family: 'Literata', serif;
   font-size: 1.2em;
+}
+
+.jp {
+  font-family: 'Zen Maru Gothic', sans-serif;
 }
 
 
