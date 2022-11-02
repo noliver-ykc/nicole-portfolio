@@ -85,10 +85,6 @@ a:link {
   padding: 1em;
 }
 
-.btn-box-work {
-  padding-top: 15em;
-}
-
 .btn-box-work:hover {
   height: fit-content;
   width: fit-content;
@@ -98,9 +94,6 @@ a:link {
   transition: border-bottom .3s;
 }
 
-.btn-box-skills {
-  padding-top: 15em;
-}
 
 .btn-box-skills:hover {
   height: fit-content;
@@ -111,9 +104,6 @@ a:link {
   transition: border-bottom .3s;
 }
 
-.btn-box-resume {
-  padding-top: 15em;
-}
 
 .btn-box-resume:hover {
   height: fit-content;
@@ -122,10 +112,6 @@ a:link {
   padding-bottom: .3em;
   border-bottom: 5px solid #EAB2EF;
   transition: border-bottom .3s;
-}
-
-.btn-box-contact {
-  padding-top: 15em;
 }
 
 .btn-box-contact:hover {
@@ -174,7 +160,13 @@ a:link {
 
 /* my work */
 
-
+.btn-box-b-mini:hover {
+  height: fit-content;
+  width: fit-content;
+  font-weight: bold;
+  border-bottom: 5px solid #8CD5DF;
+  transition: border-bottom .3s;
+}
 
 /* my skills */
 
