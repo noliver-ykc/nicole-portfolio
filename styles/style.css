@@ -246,7 +246,6 @@ a:link {
 .nicole-comp {
   height: 250px;
   width: 250px;
-  /* position: absolute; */
 }
 
 .socials {
@@ -296,5 +295,5 @@ input[type=submit] {
 }
 /* footer */
 .blue-heart {
-  color: blue;
+  color: #8CD5DF;
 }
