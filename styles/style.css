@@ -57,17 +57,79 @@ small {
   justify-content: space-around;
 }
 
-/* sidenavbar  */
-#sidebar {
-  writing-mode: vertical-lr;
+/* mobileNavBar  */
+.sandwhich-btn {
   position: fixed;
-  padding: 25px;
-  transform: rotate(180deg);
+  z-index: 9;
+  top: 2.5%;
+  left: 55%;
 }
 
-.vert {
-  padding-bottom: 6em;
+.shadow-nav {
+  background-color: black;
+  opacity: 30%;
+  z-index: 1000;
+  height: 100%;
+  width: 100vw;
+  position: fixed;
+  display: none;
 }
+
+#mobile-nav li {
+  text-decoration: none;
+}
+
+#mobile-nav {
+  position: fixed;
+  top: 5rem;
+  left: 10rem;
+  z-index: 9999;
+}
+
+.nav-popout {
+  position: fixed;
+  overflow: auto;
+  width: 225px;
+  height: 250px;
+  border: solid 1px black;
+  border-radius: 10px;
+  background-color: white;
+  display: none;
+}
+
+.btn-box-mobile {
+  margin: 1em;
+  padding: 5px;
+}
+
+.work-box {
+  padding-left: 10px;
+  border-left: .25rem solid #8CD5DF;
+}
+
+.skills-box {
+  padding-left: 10px;
+  border-left: .25rem solid #F8E47B;
+}
+
+.resume-box {
+  padding-left: 10px;
+  border-left: .25rem solid #EAB2EF;
+}
+
+.contact-box {
+  padding-left: 10px;
+  border-left: .25rem solid #EA666E;
+}
+
+ul {
+  list-style: none;
+}
+
+.mobile-nav.open {
+  display: block;
+}
+
 
 /* topNav */
 nav {
@@ -265,4 +327,27 @@ footer {
 }
 .blue-heart {
   color: #8CD5DF;
+}
+
+
+
+/* mobile sizing media queries */
+
+/* ipads and other mediumm devices */
+@media only screen and (min-width: 768px) and (max-width: 959px){
+
+
+}
+
+/* iphone6 to 13 pro max */
+@media only screen and (min-width: 375px) and (max-width: 430px){
+  #top-nav {
+    display: none;
+  }
+  /* .shadow-nav {
+    display: block;
+  }
+  .nav-popout {
+    display: block;
+  } */
 }

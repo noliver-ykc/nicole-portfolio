@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
+  <!-- bg for mobile nav -->
+  <div class="shadow-nav">
+  </div>
 
   <!-- container for app mainbody -->
   <div class="container">
@@ -23,6 +26,20 @@
       </svg>
     </a>
 
+  <!-- mobile nav -->
+
+    <svg class="sandwhich-btn" width="31" height="25" viewBox="0 0 31 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <line x1="0.995117" y1="2" x2="30.9951" y2="2" stroke="black" stroke-width="3"/>
+      <line x1="1" y1="23.5" x2="31" y2="23.5" stroke="black" stroke-width="3"/>
+    </svg>
+  <div id="mobile-nav" class="nav-popout ">
+    <ul class="sandwhichNav">
+      <li class="btn-box-mobile work-box"><a class="#work" href="#work">Work</a></li>
+      <li class="btn-box-mobile skills-box"><a href="#skills">Skills</a></li>
+      <li class="btn-box-mobile resume-box"><a href="#resume">Resume</a></li>
+      <li class="btn-box-mobile contact-box"><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
   <!-- top navbar -->
     <nav id="top-nav">
       <ul class="nav">
