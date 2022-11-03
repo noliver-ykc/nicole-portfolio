@@ -4,6 +4,7 @@
 @import "css-reset.css";
 @import "card-component.css";
 @import "nav-titles.css";
+@import "btns.css";
 
 /* general styles */
 h1 {
@@ -123,6 +124,7 @@ a:link {
   transition: border-bottom .3s;
 }
 
+
 /* landing */
 #landing-screen {
   display: inline-flex;
@@ -190,43 +192,7 @@ a:link {
 
 
 /* resume */
-  /* airbnb style button */
-.resume-btn {
-  height: fit-content ;
-  background-color: #FFFFFF;
-  border: 1px solid #222222;
-  border-radius: 8px;
-  box-sizing: border-box;
-  color: #222222;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 20px;
-  margin: 0;
-  outline: none;
-  padding: 13px 23px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  touch-action: manipulation;
-  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
-  user-select: none;
-  -webkit-user-select: none;
-  width: auto;
-}
 
-.resume-btn:focus-visible {
-  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
-  transition: box-shadow .2s;
-}
-
-.resume-btn:active {
-  background-color: #f8defb;
-  border-color: #000000;
-  transform: scale(.96);
-}
 
 .btn-box {
   padding-top: 15em;
@@ -276,15 +242,6 @@ input[type=text], input[type=email], select, textarea {
   resize: vertical;
 }
 
-input[type=submit] {
-  background-color: white;
-  color: black;
-  font-weight: bold;
-  border: 1px solid #222222;
-  padding: 12px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-}
 
 .btn-box-submit:hover {
   height: fit-content;
@@ -294,6 +251,14 @@ input[type=submit] {
   transition: border-bottom .3s;
 }
 /* footer */
+
+footer {
+  margin-top: 2em;
+  padding: 1em;
+  color: white;
+  background-color: rgb(17, 17, 17);
+  text-align: center;
+}
 .blue-heart {
   color: #8CD5DF;
 }
