@@ -32,6 +32,10 @@ p, a {
   color: black;
 }
 
+small {
+  font-family: 'Literata', sans-serif;
+}
+
 .jp {
   font-family: 'Zen Maru Gothic', sans-serif;
 }

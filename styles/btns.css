@@ -1,4 +1,16 @@
+/* scroll to top btn  */
+.to-top {
+  position: fixed;
+  z-index: 99;
+  top: 80%;
+  left: 90%;
+  opacity: 50%;
+}
 
+.to-top:hover {
+  opacity: 80%;
+  transition: opacity .3s
+}
 
 /* airbnb style button for downloads */
 .resume-btn {
