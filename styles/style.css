@@ -146,10 +146,16 @@ a:link {
   line-height: 1;
 }
 
-.main-avatar {
+#main-avatar-img {
   height: 272px;
   width: 272px;
   margin-top: 22%;
+}
+
+.main-avatar-img-mobile {
+  height: 272px;
+  width: 272px;
+  display: none;
 }
 
 .underline-spacing {
@@ -265,4 +271,55 @@ footer {
 }
 .blue-heart {
   color: #8CD5DF;
+}
+
+/* mobile sizing media queries */
+
+/* ipads and other mediumm devices */
+@media only screen and (min-width: 768px) and (max-width: 959px){
+
+
+}
+
+/* iphone6 to 13 pro max */
+@media only screen and (min-width: 375px) and (max-width: 430px){
+  #top-nav {
+    display: none;
+  }
+  .underline-spacing {
+    display: none;
+  }
+
+  .container {
+    margin: 1.5em;
+  }
+  .landing-text, #work, #skills, #resume, #contact {
+    width: 80%;
+    margin: auto 0;
+  }
+  #landing-screen {
+    margin-top: 3rem;
+    height: fit-content;
+    display: block;
+    justify-content: center;
+  }
+  #main-avatar-img {
+    height: 150px;
+    width: 150px;
+    margin: 0;
+    display: none;
+  }
+
+  #main-avatar-img-mobile {
+    display: block;
+    padding-bottom: 1em;
+  }
+
+  .main-title {
+    font-size: 2.5em;
+    padding: 0;
+    margin: 0;
+  }
+
+
 }
