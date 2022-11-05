@@ -5,6 +5,7 @@
 @import "card-component.css";
 @import "nav-titles.css";
 @import "btns.css";
+@import "media-queries";
 
 /* general styles */
 h1 {
@@ -48,7 +49,7 @@ small {
 
 
 .title-center {
-  text-align: center;
+  margin-left: 15%;
 }
 
 #work, #skills, #resume, #contact {
@@ -152,7 +153,7 @@ a:link {
   margin-top: 22%;
 }
 
-.main-avatar-img-mobile {
+#main-avatar-img-mobile {
   height: 272px;
   width: 272px;
   display: none;
@@ -178,6 +179,10 @@ a:link {
   font-weight: bold;
   border-bottom: 5px solid #8CD5DF;
   transition: border-bottom .3s;
+}
+
+.title-center-works-mobile {
+  display: none;
 }
 
 /* my skills */
@@ -283,6 +288,15 @@ footer {
 
 /* iphone6 to 13 pro max */
 @media only screen and (min-width: 375px) and (max-width: 430px){
+  .title-center-works {
+    display: none;
+  }
+  .title-center-works-mobile {
+    display: block;
+    font-size: 2.5em;
+    margin-left: 1.2em;
+    /* width: 8em; */
+  }
   #top-nav {
     display: none;
   }
@@ -293,7 +307,7 @@ footer {
   .container {
     margin: 1.5em;
   }
-  .landing-text, #work, #skills, #resume, #contact {
+  .landing-text, #skills, #resume, #contact {
     width: 80%;
     margin: auto 0;
   }
@@ -321,5 +335,27 @@ footer {
     margin: 0;
   }
 
+  #work {
+    display: block;
+    padding-top: 8em;
+    height: fit-content
+  }
 
+
+  #pluto, #filmflix, #cookbook {
+    margin: 0;
+    padding: 0;
+  }
+
+  .title-underline-b::before {
+    width: 5em;
+    left: 50%;
+  }
+  .project-card {
+    margin-bottom: 2em !important;
+  }
+
+  .to-top {
+    left: 55%;
+  }
 }
