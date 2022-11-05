@@ -307,7 +307,7 @@ footer {
   .container {
     margin: 1.5em;
   }
-  .landing-text, #skills, #resume, #contact {
+  .landing-text, #skills, #contact {
     width: 80%;
     margin: auto 0;
   }
@@ -335,7 +335,7 @@ footer {
     margin: 0;
   }
 
-  #work {
+  #work, #resume {
     display: block;
     padding-top: 8em;
     height: fit-content
@@ -357,5 +357,17 @@ footer {
 
   .to-top {
     left: 55%;
+  }
+
+  .title-p-mobile {
+    margin-bottom: 3em;
+  }
+
+  .btn-box {
+    padding-top: 10em;
+  }
+
+  .resume-btn {
+    width: 80%;
   }
 }
