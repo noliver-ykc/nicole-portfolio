@@ -215,7 +215,7 @@ a:link {
 
 .btn-box:hover {
   height: fit-content;
-  width: fit-content;
+  width: 15em;
   padding-bottom: .3em;
   border-bottom: 5px solid #EAB2EF;
   transition: border-bottom .3s;
