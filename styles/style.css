@@ -367,4 +367,9 @@ footer {
   .resume-btn {
     width: 80%;
   }
+  
+  .to-top {
+    top: 86%;
+    left: 86%;
+  }
 }
