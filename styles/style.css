@@ -304,13 +304,6 @@ footer {
     display: none;
   }
 
-  .container {
-    margin: 1.5em;
-  }
-  .landing-text, #skills, #contact {
-    width: 80%;
-    margin: auto 0;
-  }
   #landing-screen {
     margin-top: 3rem;
     height: fit-content;
@@ -338,7 +331,11 @@ footer {
   #work, #resume {
     display: block;
     padding-top: 8em;
-    height: fit-content
+    height: fit-content;
+  }
+
+  #skills {
+    height: fit-content;
   }
 
 
