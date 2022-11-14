@@ -176,7 +176,7 @@ a:link {
   border-bottom: 5px solid #8CD5DF;
   transition: border-bottom .3s;
 }
-.work-titles {
+#work-titles {
   display: flex;
   justify-content: center;
 }
