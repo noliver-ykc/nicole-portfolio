@@ -176,6 +176,10 @@ a:link {
   border-bottom: 5px solid #8CD5DF;
   transition: border-bottom .3s;
 }
+.work-titles {
+  display: flex;
+  justify-content: center;
+}
 
 .title-center-works-mobile {
   display: none;
@@ -302,8 +306,6 @@ footer {
   .title-center-works-mobile {
     display: block;
     font-size: 2.5em;
-    margin-left: 1.2em;
-    /* width: 8em; */
   }
   .nav {
     display: none;
@@ -340,6 +342,10 @@ footer {
     display: block;
     padding-top: 8em;
     height: fit-content;
+  }
+
+  .project-card {
+    width: auto;
   }
 
   #skills {
