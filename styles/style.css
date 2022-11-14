@@ -5,7 +5,7 @@
 @import "card-component.css";
 @import "nav-titles.css";
 @import "btns.css";
-@import "media-queries";
+@import "mobileNav.css";
 
 /* general styles */
 h1 {
@@ -41,6 +41,9 @@ small {
   font-family: 'Zen Maru Gothic', sans-serif;
 }
 
+#mobile-nav {
+  display: none;
+}
 
 .container {
   margin-left: 15%;
@@ -390,7 +393,7 @@ footer {
 
   .to-top {
     top: 86%;
-    left: 86%;
+    left: 87%;
   }
 
   #contact-form {
@@ -408,5 +411,12 @@ footer {
     width: 100%;
     height: 100%;
     margin-top: -1em;
+  }
+
+  #mobile-nav {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    z-index: 99;
   }
 }
