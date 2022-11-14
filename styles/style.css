@@ -305,7 +305,7 @@ footer {
     margin-left: 1.2em;
     /* width: 8em; */
   }
-  #top-nav {
+  .nav {
     display: none;
   }
   .underline-spacing {
