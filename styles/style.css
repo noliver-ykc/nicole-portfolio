@@ -48,11 +48,7 @@ small {
 }
 
 
-.title-center {
-  margin-left: 15%;
-}
-
-#work, #skills, #resume, #contact {
+#work, #skills, #contact {
   height: 100vh;
   display: flex;
   justify-content: space-around;
@@ -207,19 +203,29 @@ a:link {
 
 
 /* resume */
-
+.download-btns {
+  display: flex;
+  height: 100vh;
+}
 
 .btn-box {
   padding-top: 15em;
+  margin: 3em;
 }
 
 .btn-box:hover {
   height: fit-content;
-  width: 15em;
+  width: fit-content;
   padding-bottom: .3em;
   border-bottom: 5px solid #EAB2EF;
   transition: border-bottom .3s;
 }
+
+#resume {
+  display: flex;
+  justify-content: center;
+}
+
 
 
 /* contact me  */
@@ -277,6 +283,8 @@ footer {
 .blue-heart {
   color: #8CD5DF;
 }
+
+
 
 /* mobile sizing media queries */
 
@@ -360,13 +368,20 @@ footer {
   }
 
   .btn-box {
-    padding-top: 10em;
+    padding-top: 5em;
+    width: auto;
+  }
+
+  .download-btns {
+    padding-top: 5em;
+    display: block;
+    height: 50vh;
   }
 
   .resume-btn {
-    width: 80%;
+    width: 100%;
   }
-  
+
   .to-top {
     top: 86%;
     left: 86%;
