@@ -298,6 +298,50 @@ footer {
 /* ipads and other mediumm devices */
 @media only screen and (min-width: 768px) and (max-width: 959px){
 
+  .underline-spacing {
+    display: none;
+  }
+  #main-avatar-img {
+    display: none;
+  }
+
+  #main-avatar-img-mobile {
+    display: flex;
+    height: 350px;
+    width: 350px;
+    padding-bottom: 1em;
+  }
+  #landing-screen {
+    margin-top: 3rem;
+    height: fit-content;
+    display: block;
+    justify-content: center;
+  }
+
+  .to-top {
+    top: 86%;
+    left: 75%;
+  }
+  #work {
+    display: inline-block;
+    margin-left: 20%;
+    padding-top: 8em;
+    height: fit-content;
+    justify-content: center;
+  }
+
+  .project-card {
+    width: 300px;
+    height: 399px;
+    object-fit: contain;
+  }
+
+  #landing-screen {
+    margin-top: 3rem;
+    height: fit-content;
+    display: block;
+    justify-content: center;
+  }
 
 }
 
