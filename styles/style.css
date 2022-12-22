@@ -1,12 +1,18 @@
 /* imports */
 @import url('https://fonts.googleapis.com/css2?family=Literata:opsz@7..72&family=Lobster&family=Zen+Maru+Gothic&display=swap');
-@import url('http://fonts.cdnfonts.com/css/bogart');
+/* @import url('https://fonts.cdnfonts.com/css/bogart'); */
 @import "css-reset.css";
 @import "card-component.css";
 @import "nav-titles.css";
 @import "btns.css";
 @import "mobileNav.css";
+@import "project-page.css";
 
+/* missing font */
+@font-face {
+  font-family: Bogart;
+  src: url(bogart.ttf);
+}
 /* general styles */
 h1 {
   font-family: 'Bogart', 'Lobster', sans-serif;
@@ -463,4 +469,43 @@ footer {
     position: relative;
     z-index: 99;
   }
+  /* project page mobile margins */
+
+  .project-intro{
+    width: 100%;
+  }
+  .project-page-title {
+    font-size: 2em;
+  }
+
+  .project-main-img {
+    margin: 0 0 2em 0;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width: 100%;
+  }
+
+  .info-box {
+    width: 100%;
+  }
+  .stack-info{
+    display: block;
+  }
+
+  .proj-lang {
+    font-size: 3.5em;
+    margin-bottom: 1em;
+  }
+  #other-projects-cards{
+    display: block;
+  }
+  .sub-img{
+    height: fit-content;
+    width: fit-content;
+  }
 }
+
+
