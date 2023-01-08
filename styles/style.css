@@ -470,6 +470,7 @@ footer {
     z-index: 99;
   }
   /* project page mobile margins */
+  /* iphone sizes */
 
   .project-intro{
     width: 100%;
@@ -509,3 +510,15 @@ footer {
 }
 
 
+/* ipads and other mediumm devices */
+@media only screen and (min-width: 768px) and (max-width: 1150px){
+  .project-main-img {
+    width: 50em;
+  }
+  .info-box {
+    width: 70%;
+  }
+  .proj-lang {
+    font-size: 5em;
+  }
+}
