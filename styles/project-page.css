@@ -84,3 +84,14 @@ ul {
 #other-projects-cards .project-card {
 	margin-top: 3em;
 }
+
+.proj-blurb-links {
+  font-size: inherit;
+  font-weight: bold;
+  text-decoration: underline !important;
+}
+
+.ending-comments {
+  margin-top: 10em;
+  text-align: center;
+}

@@ -24,17 +24,27 @@
     </a>
   </div>
 
-	
+
 	<div class="container mt">
+    <!-- top navbar -->
+    <nav id="top-nav">
+      <ul class="nav">
+        <li class="btn-box-work"><a class="#work" href="/index.html#work-titles">Work</a></li>
+        <li class="btn-box-skills"><a href="/index.html#skill-title">Skills</a></li>
+        <li class="btn-box-resume"><a href="/index.html#resume-title">Resume</a></li>
+        <li class="btn-box-contact"><a href="/index.html#contact-title">Contact</a></li>
+      </ul>
+    </nav>
 		<!-- maybe build a function that will display a new memoji everytime? -->
 		<a href="/index.html"><img class="nicole-mini" src="/assets/avatar-scroll.png" alt=""></a>
-		
+
 		<!-- Full intro  -->
 		<div class="project-intro">
 			<h2 class="project-page-title">Pluto: for happier, healthier pet families</h2>
-			<p class="project-page-info">Pluto is a Ruby on Rails Application... Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aut nisi, itaque at vitae, eius non obcaecati, autem cupiditate omnis magni? Enim, magnam velit ipsum provident in vel fugiat inventore.</p>
+			<p class="project-page-info">Pluto is a Ruby on Rails Application built as a graduation Project at Le Wagon Tokyo. The app was meant to be a way to safely store information about your pet and to easily share it with family and pet sitters alike. To view the full product pitch I created for Pluto, please click <a class="proj-blurb-links" href="https://www.canva.com/design/DAFC7Y79ALo/eTlhI6dMZ8mt-2E4AOli5w/view?utm_content=DAFC7Y79ALo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">here</a>.
+        <br>To view the live presentation of the final project, please click <a class="proj-blurb-links" href="https://youtu.be/yh8iZUNj8B8?t=911" target="_blank">here</a>.  </p>
 		</div>
-		
+
 		<!-- project stack -->
 		<div class="project-stack">
 			<div class="column">
@@ -43,7 +53,7 @@
 					<li>Graduation Project</li>
 				</ul>
 			</div>
-			
+
 			<div class="column">
 				<p><b>STACK</b></p>
 				<ul>
@@ -54,9 +64,9 @@
 					<li>Heroku</li>
 					<li>SCSS</li>
 					<li>Figma</li>
-				</ul>	
+				</ul>
 			</div>
-		
+
 			<div class="column">
 				<p><b>LIVE</b></p>
 				<ul>
@@ -65,23 +75,23 @@
 			</div>
 		</div>
 	</div>
-	
+
 		<!-- .......... main image ................. -->
 		<img class="project-main-img" src="/assets/Pluto-main.png" alt="pluto screen shot">
 	<div class="container">
-		
+
 		<!-- Project Goal -->
 		<div class="info-box-lg">
 			<h1>Our Goals for Pluto</h1>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis maiores dolorem neque cupiditate libero ipsum sint expedita odit reprehenderit officia. Eius, ipsam porro tenetur harum perferendis natus amet repellendus provident!</p>
+			<p>As a team, we set a few important goals when developing our app. One was to use a brand new technology, not introduced by the bootcamp and something none of us have ever touched. For this we made use of the LINE Messanger Api. This Api gave us the ability to send direct messages to users LINE accounts so that they could always have the latest alerts about their pet without even opening pluto. Another major goal, was the ability to add multiple users to one specific pet. With this feature added, users are easily able to add a pet sitter to the account and make sure they had all the information available to safely watch over the pet(s). </p>
 		</div>
 
 		<!-- Project Stack -->
 		<div class="info-blurb">
 			<div class="info-box">
 				<h1>Project Stack</h1>
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure provident sit dolorum quaerat molestias minus quisquam velit ex? Quaerat recusandae illo velit cupiditate! Corporis consectetur debitis, eum ipsam voluptatum non.</p>
-				<p class="mt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ducimus quod nostrum atque, similique deleniti alias rem dolorum corrupti dicta voluptate unde recusandae deserunt nemo nesciunt fuga saepe facere veniam?</p>
+				<p>During the creation of our project, we used a collection of different technologies to best build what we needed. In the earliest stages of our porject figma and figjam were used to map out our plans for the user interface and relational models. As the front end lead,  I also took care of UX/UI and conducted user research, and worked on the main design's for pluto. The designs were then put into action with rails, html and vanilla javascript.</p>
+				<p class="mt">Our back end was then made primarily with ruby on rails, database management with MySql and hosting done on Heroku.</p>
 			</div>
 			<div class="dev-icons">
 				<i class="proj-lang devicon-rails-plain-wordmark"></i>
@@ -89,16 +99,16 @@
 				<i class="proj-lang devicon-heroku-plain-wordmark"></i>
 			</div>
 		</div>
-		
-	
+
+
 		<!-- ...........image collage ............... -->
 		<img class="sub-img" src="/assets/pluto02.png" alt="pluto screen shot">
 
 		<!-- Problems -->
 		<div class="info-box-lg">
 			<h1>Problems faced</h1>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit est fugit vitae ad, nisi in adipisci, numquam quidem soluta quia laborum? Ea, itaque. Adipisci reprehenderit animi, est at dolorem autem.</p>	
-			<p class="mt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ducimus quod nostrum atque, similique deleniti alias rem dolorum corrupti dicta voluptate unde recusandae deserunt nemo nesciunt fuga saepe facere veniam?</p>
+			<p>One of the major problems our team faced was building the schema for pluto. We wanted easch user to have a "pet-family", consisting of individual pets, and each pet would have a sub selection [meals, journals, medicine, appointments]. But what made things more difficult was that we also wanted to make it so multiple users could "share" one pet.  </p>
+			<p class="mt">Our initial assumption (which cost us 5 days of work) was that a pet, belonged to a user. And that a pets "sub-selections" belonged to the pets. But then how do we allow multiple users to share one pet? After days of trouble shooting we came to the conclusion that there needed to be an "ownership" between the users and the pets. One user may have many relationships and which may contain many pets. One relationship can have N:N, both many users and many pets. To see our final schema please check <a class="proj-blurb-links" href="../assets/pluto_schema.png" target="_blank">here</a>.</p>
 
 		</div>
 
@@ -109,14 +119,21 @@
 			<!-- Lessons -->
 			<div class="info-box mt-blurb">
 				<h1>What I've learned</h1>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam totam veniam harum explicabo facere ab non cum a libero omnis doloremque vel iste asperiores nulla quasi deserunt, eum ea numquam.</p>
-			</div>	
+				<p>There are a lot of things to take away from this particular project, here are a few things that I decided to really keep with me as I grow as an engineer. </p>
+        <ol class="mt">
+          <li>The importance of team work and communication</li>
+          <li>How to really conceptualize a project through ample user research and schema design</li>
+          <li>The value of SCRUM meetings and a skillful project manager</li>
+        </ol>
+			</div>
 		</div>
-		
+
+    <p class="ending-comments">Thank you for reading! Please check below for a breakdown of my other projects.</p>
+
 		<div class="other-projs">
 			<h1 class="other-projs-title">Other Projects</h1>
 			<div id="other-projects-cards" data-aos="fade-up" data-aos-duration="1500">
-			
+
 				<div id="cookbook" class="project-card">
 					<div class="project-card-info">
 					<div class="proj-card-title-tech">
@@ -165,8 +182,8 @@
 			</div>
 		</div>
 	</div>
-		
-	
+
+
 		<!-- footer -->
 		<footer>
 			<small>Made in Tokyo with <i class="fa-solid fa-heart blue-heart"></i> by Nicole</small>
